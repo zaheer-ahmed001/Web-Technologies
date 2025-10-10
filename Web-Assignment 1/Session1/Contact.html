@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Contact — SMI University</title>
+  <link rel="stylesheet" href="./CSS/index.css">
+</head>
+<body>
+  <div id="headercode"></div>
+
+  <div class="page-container">
+    <h1>Contact</h1>
+    <p>Questions about admissions, programs or campus visits? Get in touch.</p>
+
+    <form class="contact-form" action="#">
+      <label for="name">Name</label>
+      <input id="name" type="text" required pattern="[A-Za-z ]{3,26}" placeholder="Your name">
+
+      <label for="phone">Contact</label>
+      <input id="phone" type="text" required pattern="[0-9+]{11,13}" placeholder="+92XXXXXXXXXX">
+
+      <label for="message">Message</label>
+      <textarea id="message" rows="5" placeholder="Your message"></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+
+  <div id="footer"></div>
+  <script src="JS/header.js"></script>
+</body>
+</html>
